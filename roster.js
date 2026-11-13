@@ -1,6 +1,6 @@
 /* =====================================================================
    ROSTER — this is the only file you need to edit to add your friends.
-   8 men and 6 women, each with their own costume.
+   10 men and 6 women, each with their own costume.
 
    For each fighter:
      name    : shown in menus, on the health bar, and spoken by the announcer
@@ -48,8 +48,10 @@ window.ROSTER = [
   { name: 'ARAWIND', title: 'Sharp Dressed', gender: 'm', costume: 'suit', shirt: '#20232a', pants: '#20232a', accent: '#b388ff', skin: '#b07a50', hair: '#17110d', hairStyle: 'none', speed: 4, power: 2, health: 3, face: { hair: 'quiff', glasses: 'thin', moustache: 1 }, special: 'uppercut' },
   { name: 'ABI', title: 'The Immovable', gender: 'm', costume: 'boxer', shirt: '#5d4037', pants: '#1565c0', accent: '#e53935', skin: '#9a6a48', hair: '#17110d', hairStyle: 'none', build: 1.2, speed: 1, power: 4, health: 5, face: { hair: 'short', beard: 'goatee' }, special: 'quake' },
   { name: 'AKASH', title: 'Full Throttle', gender: 'm', costume: 'biker', shirt: '#37474f', pants: '#1a1a1a', accent: '#00e676', skin: '#c58c5c', hair: '#1c1410', hairStyle: 'none', speed: 3, power: 4, health: 2, face: { hair: 'swept', beard: 'stubble', smile: 'closed' }, special: 'uppercut' },
-  // ---- one more man, then the women ----
+  // ---- three more men, then the women ----
   { name: 'BALAJI', title: 'The Black Belt', gender: 'm', costume: 'gi', shirt: '#1a237e', pants: '#1a237e', accent: '#ffd54f', skin: '#7c4c32', hair: '#17110d', hairStyle: 'none', speed: 3, power: 3, health: 3, face: { hair: 'short', beard: 'full', moustache: 1, glasses: 'thick' }, special: 'quake' },
+  { name: 'COOLU', title: 'Too Cool To Lose', gender: 'm', costume: 'suit', shirt: '#eceff1', pants: '#eceff1', accent: '#ff5252', skin: '#b07a50', hair: '#17110d', hairStyle: 'none', speed: 4, power: 3, health: 2, face: { hair: 'quiff', glasses: 'thick', beard: 'stubble', smile: 'closed' }, special: 'teleport' },
+  { name: 'SAKTHI', title: 'Pure Power', gender: 'm', costume: 'boxer', shirt: '#5d4037', pants: '#2e7d32', accent: '#ffd54f', skin: '#8a5a3c', hair: '#17110d', hairStyle: 'none', build: 1.15, speed: 2, power: 5, health: 2, face: { hair: 'short', moustache: 1, brows: 'thick' }, special: 'uppercut' },
   { name: 'PUPPY', title: 'Cool Under Fire', gender: 'f', costume: 'dress', shirt: '#ec407a', pants: '#ad1457', accent: '#fff59d', skin: '#d2a27a', hair: '#15110f', hairStyle: 'long', speed: 3, power: 2, health: 4, face: { hair: 'parted', lips: 1, smile: 'teeth', clip: 1 }, special: 'fireball' },
   { name: 'KUTTY', title: 'Sky Breaker', gender: 'f', costume: 'athlete', shirt: '#00acc1', pants: '#263238', accent: '#ffee58', skin: '#c68e63', hair: '#1a1310', hairStyle: 'ponytail', build: 0.92, speed: 5, power: 2, health: 2, face: { hair: 'parted', lips: 1, smile: 'closed' }, special: 'uppercut' },
   { name: 'BABLOO', title: 'Now You See Her', gender: 'f', costume: 'hoodie', shirt: '#f48fb1', pants: '#37474f', accent: '#7c4dff', skin: '#e0b08a', hair: '#3b2314', hairStyle: 'wavy', speed: 4, power: 2, health: 3, face: { hair: 'curly', lips: 1, smile: 'teeth', glasses: 'thin' }, special: 'teleport' },
